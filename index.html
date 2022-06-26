@@ -9,7 +9,7 @@
             req.open("GET","https://grasscat299.github.io/test/test1.php");
             req.onreadystatechange=function(){
                 if(req.readyState == 4 && req.status == 200 ){
-                    console( req.responseText );
+                    console.log( req.responseText );
                 }
             };
             req.send();
